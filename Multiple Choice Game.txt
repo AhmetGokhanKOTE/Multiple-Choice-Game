@@ -1,0 +1,53 @@
+print('Welcome to the quiz')  
+
+score = 0
+
+Ans1 = str(input('What is the capital of England? '))
+
+if Ans1.lower() == 'london':
+    print('Correct!')
+    score += 1
+else:
+        print('Wrong!')
+    
+print('Your score:', score)
+
+Ans2 = str(input('When did World War II start? '))
+
+if Ans2.lower() == '1939':
+    print('Correct!')
+    score += 1
+else:
+        print('Wrong!')
+
+print('Your score:', score)
+
+Ans3 = str(input('When did World War II finish?'))
+           
+if Ans3.lower() == '1945':
+    print('Correct!')
+    score += 1 
+else: 
+        print('Wrong!')
+            
+print('Your score:', score) 
+
+Ans4 = str(input('When did Christopher Columbus discover America?'))
+
+if Ans4.lower() == '1492':
+    print('Correct!')
+    score += 1 
+else:
+    print('Wrong')
+    
+print('Your score', score) 
+
+Ans5 = str(input('Who is the president of Poland?'))
+
+if Ans5.lower() == 'andrzej duda':
+    print('Correct!')
+    score += 1 
+else: 
+    print('Wrong')
+
+print('Your score', score)              
